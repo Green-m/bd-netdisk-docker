@@ -19,6 +19,10 @@ docker run -d -p 6080:80 --name bdnetdisk -v /dev/shm:/dev/shm -v /root/you_want
 
 You can access the desktop with access 127.0.0.1:6080
 
+## bugs
+
+If the baidu netdisk would get stuck when log in for sometime, just rm it and start a new container.
+
 ## more options about vnc
 
 see more https://github.com/fcwu/docker-ubuntu-vnc-desktop
